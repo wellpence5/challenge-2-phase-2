@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 const API_URL = 'http://localhost:3000/goals';
 
-export default function SmartGoalPlanner() {
+function SmartGoalPlanner() {
   const [goals, setGoals] = useState([]);
   const [newGoal, setNewGoal] = useState({ name: '', targetAmount: '', category: '', deadline: '' });
   const [deposit, setDeposit] = useState({ goalId: '', amount: '' });
@@ -122,3 +122,5 @@ export default function SmartGoalPlanner() {
     </div>
   );
 }
+
+export default SmartGoalPlanner;
