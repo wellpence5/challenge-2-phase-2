@@ -106,7 +106,7 @@ export default function SmartGoalPlanner() {
               <div style={{ background: '#eee', height: '10px', width: '100%' }}>
                 <div style={{ width: `${progress}%`, height: '10px', background: 'green' }}></div>
               </div>
-              <p>Status: {isComplete ? '✅ Completed' : isOverdue ? '❌ Overdue' : `${timeLeft} days left`}</p>
+              <p>Status: {isComplete ? 'Completed' : isOverdue ? 'Overdue' : `${timeLeft} days left`}</p>
               <button onClick={() => deleteGoal(goal.id)}>Delete</button>
             </div>
           );
