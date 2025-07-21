@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const API_URL = '/goals';
+const API_URL = 'http://localhost:3000/goals';
 
 
 function SmartGoalPlanner() {
