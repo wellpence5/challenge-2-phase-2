@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "api": "json-server --watch sth.json --port 3000",
-    "start": "json-server --watch db.json --port 10000"
+    "start": "json-server --watch sth.json --port 10000"
   },
   "dependencies": {
     "react": "^19.1.0",
