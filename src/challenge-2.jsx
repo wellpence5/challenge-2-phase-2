@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const API_URL = 'http://localhost:3000/goals';
+const API_URL = 'https://challenge-2-phase-2.onrender.com/goals';
 
 
 function SmartGoalPlanner() {
